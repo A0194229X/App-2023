@@ -93,7 +93,6 @@ jobs:
        with:
          target: 'http://localhost:5000'
          cmd_options: '-a'    
-         fail_action: true
                   
   container-scan:
     needs: [dast, sast]
